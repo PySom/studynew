@@ -1,0 +1,20 @@
+<svg id="Component_104_1" data-name="Component 104 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="341" height="165" viewBox="0 0 341 165">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1611" data-name="Rectangle 1611" width="341" height="165" rx="16" transform="translate(744 1040)" fill="#002984"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1815" data-name="Group 1815" transform="translate(-744 -1040)" clip-path="url(#clip-path)">
+    <g id="Rectangle_1610" data-name="Rectangle 1610" transform="translate(732 1019)" fill="#002984" stroke="#707070" stroke-width="1">
+      <rect width="361" height="191" stroke="none"/>
+      <rect x="0.5" y="0.5" width="360" height="190" fill="none"/>
+    </g>
+    <ellipse id="Ellipse_242" data-name="Ellipse 242" cx="181" cy="174.5" rx="181" ry="174.5" transform="translate(560 932)" fill="#001950" opacity="0.213"/>
+  </g>
+  <text id="Lit-in-English" transform="translate(178 140)" fill="#fff" font-size="19" font-family="WorkSans-Bold, Work Sans" font-weight="700" letter-spacing="-0.009em"><tspan x="0" y="0">Lit-in-English</tspan></text>
+  <g id="book" transform="translate(29 27)">
+    <path id="Path_4601" data-name="Path 4601" d="M30,0H17a1,1,0,0,0-1,1V8H1A1,1,0,0,0,0,9V59a1,1,0,0,0,1,1H30a1,1,0,0,0,1-1V1A1,1,0,0,0,30,0ZM29,52H18V50H29ZM2,15H16V45H2Zm27-4H18V8H29ZM2,47H16v3H2Zm16,1V13H29V48ZM29,2V6H18V2ZM16,10v3H2V10ZM2,52H16v6H2Zm16,6V54H29v4Zm0,0" fill="#fff"/>
+    <path id="Path_4602" data-name="Path 4602" d="M276.966,110.749l-12-46a1,1,0,0,0-1.226-.714l-15,4a1,1,0,0,0-.71,1.218l12,46a1,1,0,0,0,1.226.712l15-4A1,1,0,0,0,276.966,110.749ZM251.81,75.819l13.068-3.484.47,1.8-13.067,3.489Zm14.043.256,5.8,22.248-13.063,3.485-5.8-22.249Zm6.309,24.184,1.024,3.924-13.068,3.484-1.02-3.923Zm-8.878-34.033,1.089,4.175L251.3,73.884l-1.088-4.173Zm-1.572,47.55-1.089-4.175,13.068-3.485,1.088,4.173Zm0,0" transform="translate(-216.998 -56.001)" fill="#fff"/>
+    <path id="Path_4603" data-name="Path 4603" d="M41,144H33a1,1,0,0,0-1,1v8a1,1,0,0,0,1,1h8a1,1,0,0,0,1-1v-8A1,1,0,0,0,41,144Zm-1,8H34v-6h6Zm0,0" transform="translate(-28 -126)" fill="#fff"/>
+  </g>
+</svg>
