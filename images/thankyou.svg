@@ -83,9 +83,9 @@
             <rect id="Rectangle_2-2" data-name="Rectangle 2" width="915" height="508" rx="10" transform="translate(452 9)" fill="#fff"/>
           </g>
           <path id="Rectangle_124" data-name="Rectangle 124" d="M10,0H905a10,10,0,0,1,10,10V92a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(617 197)" fill="#10a3ff"/>
-          <text id="We_hope_you_enjoyed_the_lesson._Click_Done_below_to_go_back_to_the_main_menue" data-name="We hope you enjoyed the lesson. 
-Click “Done” below to go back to the main menue" transform="translate(1075 466)" fill="#5f5f5f" font-size="26" font-family="work sans, Open Sans, sans-serif" font-weight="500"><tspan x="-214.734" y="0">We hope you enjoyed the lesson. </tspan><tspan x="-319.839" y="32">Click “Done” below to go back to the main menue</tspan></text>
-          <text id="Hi_Great_Job_" data-name="Hi Great Job!" transform="translate(962 400)" fill="#5f5f5f" font-size="35" font-family="work sans, Open Sans, sans-serif" font-weight="700"><tspan x="0" y="0">Hi Great Job!</tspan></text>
+          <text id="We_hope_you_enjoyed_the_lesson._Click_Done_below_to_go_back_to_the_main_menu" data-name="We hope you enjoyed the lesson. 
+Click “Done” below to go back to the main menu" transform="translate(1075 466)" fill="#5f5f5f" font-size="26" font-family="Helvetica, sans-serif" font-weight="500"><tspan x="-214.734" y="0">We hope you enjoyed the lesson. </tspan><tspan x="-319.839" y="32">Click “Done” below to go back to the main menu</tspan></text>
+          <text id="Hi_Great_Job_" data-name="Hi Great Job!" transform="translate(962 400)" fill="#5f5f5f" font-size="35" font-family="Helvetica, sans-serif" font-weight="800"><tspan x="0" y="0">Hi Great Job!</tspan></text>
         </g>
       </g>
     </g>

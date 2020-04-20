@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="97.472" height="23.418" viewBox="0 0 97.472 23.418">
+  <g id="Group_1842" data-name="Group 1842" transform="translate(-1660.528 -43.469)">
+    <text id="LOGOUT" transform="translate(1694 60)" font-size="15" font-family="ArialMT, Arial"><tspan x="0" y="0">LOGOUT</tspan></text>
+    <g id="Group_1230" data-name="Group 1230" transform="translate(-50.944 -1004.059)">
+      <g id="logout-2" data-name="logout" transform="translate(1711.473 1047.528)">
+        <g id="Group_1035" data-name="Group 1035" transform="translate(0 0)">
+          <path id="Path_1427" data-name="Path 1427" d="M116.032,100.317a1.018,1.018,0,0,0-1.018,1.018v1.812a1.7,1.7,0,0,1-1.7,1.7h-9.105a1.7,1.7,0,0,1-1.7-1.7V87.2a1.7,1.7,0,0,1,1.7-1.7h9.105a1.7,1.7,0,0,1,1.7,1.7v1.812a1.018,1.018,0,0,0,2.036,0V87.2a3.74,3.74,0,0,0-3.736-3.736h-9.105a3.74,3.74,0,0,0-3.736,3.736v15.946a3.74,3.74,0,0,0,3.736,3.736h9.105a3.74,3.74,0,0,0,3.736-3.736v-1.812A1.018,1.018,0,0,0,116.032,100.317Zm0,0" transform="translate(-100.473 -83.465)" fill="#0097f5"/>
+          <path id="Path_1428" data-name="Path 1428" d="M245.151,199.939l-2.029-2.029a1.018,1.018,0,0,0-1.44,1.44l1.252,1.252H232.327a1.018,1.018,0,0,0,0,2.036h10.608l-1.252,1.252a1.018,1.018,0,0,0,1.439,1.44l2.029-2.029A2.38,2.38,0,0,0,245.151,199.939Zm0,0" transform="translate(-222.43 -189.866)" fill="#0097f5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
