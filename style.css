@@ -9,6 +9,12 @@
 }
 
 @font-face {
+  font-family: "work sans regular";
+  src: url("./fonts/Work\ Sans\ 400.ttf");
+  font-weight: bold;
+}
+
+@font-face {
   font-family: "work sans";
   src: url("./fonts/WorkSans-Regular.otf");
   font-weight: bolder;
@@ -22,7 +28,7 @@
 @font-face {
   font-family: "Work Sans Bold";
   src: url("./fonts/Work\ Sans\ Bold\ 700.ttf");
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 @font-face {
@@ -649,13 +655,19 @@ h6 {
 --------------------------------*/
 
 .home h3 {
-  padding-top: 19px;
+  padding-top: 40px;
   font-size: 35px;
   color: #10a3ff;
   text-align: left;
   font-weight: bolder;
   position: relative;
-  font-family: "work sans bold";
+  font-family: "Helvetica Bold";
+}
+
+@media screen and (min-width: 1200px) {
+  .home h3 {
+    padding-top: 60px;
+  }
 }
 
 .home p {
@@ -1772,7 +1784,7 @@ opacity: 0;
 }
 
 .box-overlay {
-  padding: 2.25rem 2.25rem 2.25rem 2.25rem;
+  padding: 2.25rem 5.25rem 2.25rem 5.25rem;
 }
 
 .close {
@@ -1780,17 +1792,31 @@ opacity: 0;
 }
 
 .nav-padding-right {
-  padding: 29px 0px 21px 0px !important;
+  padding: 27px 0px 21px 0px !important;
+}
+
+.nav-padding-right-home {
+  padding: 28px 0px 21px 0px !important;
 }
 
 .back-home {
   background-color: #10a3ff;
   border: none;
-  padding: 7px 13px 7px 10px;
+  padding: 7px 13px 7px 13px;
   color: #fff;
   border-radius: 5px;
-  font-size: 8px;
+  font-size: 12px;
   font-weight: bold;
+  font-family: "Helvetica Bold";
+}
+
+@media screen and (min-width: 1400px) {
+  .back-home {
+    background-color: #10a3ff;
+    border: none;
+    padding: 9px 16px 9px 16px;
+    font-size: 15px;
+  }
 }
 
 .dissapear-nav {
@@ -1812,7 +1838,7 @@ opacity: 0;
   top: 89px;
   z-index: 1000;
   background: #fff;
-  padding: 34% 71% 11% 11%;
+  padding: 34% 76% 11% 11%;
 }
 
 .cancel {
@@ -1820,9 +1846,23 @@ opacity: 0;
   top: 29px;
   right: 31px;
 }
+
+.back-up {
+  width: 73%;
+}
 /*------------------------------------------  --------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
+
+@media (min-width: 1025px) {
+  .sidenav {
+    height: 100vh !important;
+    width: 207px !important;
+    right: 0px !important;
+    border-bottom: 46px solid #006db1 !important;
+  }
+}
+
 @media (min-width: 1700px) {
   .close {
     left: 0px !important;
@@ -1880,7 +1920,7 @@ opacity: 0;
     font-size: 20px !important;
   }
   .branded {
-    width: 66rem !important;
+    width: 76rem !important;
   }
   .sidenav a {
     font-size: 16px !important;
@@ -1890,7 +1930,7 @@ opacity: 0;
     margin-left: -148px !important;
   }
   .quit {
-    width: 12.2% !important;
+    width: 10.82% !important;
   }
 }
 
@@ -1957,10 +1997,10 @@ opacity: 0;
   .sidenav {
     height: 97vh !important;
     width: 1024px !important;
-    top: -8px !important;
+    top: 6px !important;
     background-color: #001c5c !important;
     opacity: 0.9 !important;
-    z-index: 1005 !important;
+    z-index: 4005 !important;
   }
   .timing-top {
     font-size: 10px;
@@ -2136,7 +2176,7 @@ opacity: 0;
   }
   .sidenav {
     width: 800px !important;
-    top: -8px !important;
+    top: 4px !important;
     background-color: #001c5c !important;
     opacity: 0.9 !important;
   }
@@ -2492,7 +2532,7 @@ opacity: 0;
   }
   .sidenav {
     width: 600px !important;
-    top: -8px !important;
+    top: 4px !important;
     background-color: #001c5c !important;
     opacity: 0.9 !important;
   }
@@ -2533,6 +2573,9 @@ opacity: 0;
 }
 
 @media (max-width: 414px) {
+  .back-up {
+    width: 100% !important;
+  }
   .no-left-padding {
     margin-right: 67px !important;
   }
@@ -3281,6 +3324,13 @@ img.circle {
 .shadowy {
   margin-bottom: 50px;
   border: none;
+  width: 230px;
+}
+
+@media screen and (min-width: 1500px) {
+  .shadowy {
+    width: 260px;
+  }
 }
 
 .grey-bg {
@@ -3288,15 +3338,13 @@ img.circle {
   padding-left: 60px !important;
   padding-right: 60px !important;
 }
-.card-down {
-  margin-bottom: 25px !important;
-}
+
 .text-muted {
   padding-right: 150px;
 }
 
 h5.card-title.card-down {
-  font-size: 10px;
+  font-size: 11px;
   color: #5f5f5f !important;
 }
 
@@ -3305,7 +3353,7 @@ h5.card-title.card-down {
 }
 
 h5.card-title.card-down {
-  font-size: 13px;
+  font-size: 11px;
   font-weight: bolder;
   color: #000000 !important;
   font-family: "work sans medium";
@@ -3366,7 +3414,7 @@ p.new-font {
   width: 97%;
   font-size: 12px !important;
   border-radius: 4px !important;
-  font-family: "work sans bold";
+  font-family: "Helvetica bold";
   border: none !important;
 }
 
@@ -3506,17 +3554,6 @@ i.fas.fa-search {
 
 .no-margin-up {
   font-weight: 700;
-  font-size: 15px;
-  margin-top: 0px;
-  padding: 2.25rem;
-  background-color: #10a3ff;
-  color: #fff;
-  border-radius: 10px !important;
-  border: #10a3ff;
-}
-
-.result {
-  font-weight: 700;
   font-size: 18px;
   margin-top: 0px;
   padding: 2.25rem;
@@ -3524,6 +3561,19 @@ i.fas.fa-search {
   color: #fff;
   border-radius: 10px !important;
   border: #10a3ff;
+  font-family: "Work Sans Bold";
+}
+
+.result {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 0px;
+  padding: 2.25rem;
+  background-color: #10a3ff;
+  color: #fff;
+  border-radius: 10px !important;
+  border: #10a3ff;
+  font-family: "Helvetica Bold";
 }
 
 .decision-box {
@@ -3545,9 +3595,16 @@ i.fas.fa-search {
   background-color: #10a3ff;
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
+  border-bottom-right-radius: 11px;
+  border-bottom-left-radius: 12px;
   margin-bottom: 40px important;
 }
 
+@media screen and (min-width: 1400px) {
+  .branded {
+    width: 64rem;
+  }
+}
 .blue-box {
   background-color: #fff;
 }
@@ -3563,6 +3620,7 @@ i.fas.fa-search {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  font-family: "work sans regular";
 }
 
 /* Hide the browser's default radio button */
@@ -3617,23 +3675,27 @@ i.fas.fa-search {
 }
 
 .approach {
-  color: #5f5f5f;
+  color: #000000;
   font-size: 15px;
   padding-bottom: 15px;
   font-weight: 700;
   text-align: left;
-  margin-top: 20px;
+  margin-top: 30px;
+  font-family: "Work Sans Bold";
 }
 .centralized {
   background-color: #fafafa;
   text-align: center;
   padding: 15px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .blackish {
-  color: #333333;
+  color: #000000;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 15px;
+  font-family: "work sans bold";
 }
 
 label {
@@ -3718,14 +3780,23 @@ img.close-bar {
   padding: 8px 0px 8px 0px;
   text-align: center;
   text-decoration: none;
-  font-size: 25px;
   color: #efefef;
   display: block;
   transition: 0.3s;
   font-size: 13px;
+  font-family: "work sans medium";
   /* margin-left: 41px; */
 }
 
+@media screen and (min-width: 1400px) {
+  .sidenav a {
+    padding: 10px 0px 10px 0px;
+    transition: 0.3s;
+    font-size: 16px;
+    font-family: "work sans medium";
+    /* margin-left: 41px; */
+  }
+}
 .sidenav a:hover {
   background-color: #005095;
   color: #fff;
@@ -3830,11 +3901,17 @@ p.style-question {
 
 .score {
   padding-left: 30%;
+  font-family: "work sans medium";
+  font-size: 16px;
+  padding: 0.5em 0;
 }
 
 .points {
-  color: #5f5f5f;
+  color: #000000;
   font-weight: 900;
+  font-family: "Helvetica Bold";
+  font-size: 20px;
+  padding: 0.5em 0;
 }
 
 .underline {
@@ -3863,6 +3940,8 @@ p.style-question {
 
 .result-score {
   padding-left: 48%;
+  font-family: "work sans medium";
+  font-size: 16px;
 }
 
 .col-md-6.cancel {
@@ -3888,6 +3967,17 @@ p.style-question {
   background-color: #ffba00;
   color: #fff;
   border: none;
+  border-radius: 6px;
+  font-family: "Helvetica Regular";
+  padding-left: 50px;
+  padding-top: 15px;
+  padding-right: 50px;
+  padding-bottom: 15px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+  margin-bottom: 10px;
 }
 
 .black {
@@ -3909,6 +3999,8 @@ p.style-question {
 .center {
   background-color: #fff;
   padding-bottom: 30px;
+  border-bottom-right-radius: 14px;
+  border-bottom-left-radius: 14px;
 }
 
 .pad-up {
@@ -4410,10 +4502,10 @@ div.audio-bg button:focus {
 }
 
 .quit-quiz {
-  font-size: 11px;
-  color: #ccc;
+  font-size: 13px;
+  color: white;
   font-weight: bolder;
-  margin-left: 8px;
+  font-family: "work sans medium";
 }
 
 .quit {
@@ -4428,13 +4520,26 @@ div.audio-bg button:focus {
   background-color: #006db1;
 }
 
+.quit img {
+  position: relative;
+  right: 6%;
+}
+
+@media screen and (max-width: 1600px) {
+  .quit img {
+    position: relative;
+    right: 10%;
+  }
+}
+
 .quit:focus {
   outline: none;
 }
 
-a.c-pointer.quit:hover {
+/* a.c-pointer.quit:hover {
   background-color: #f5f5f5;
-}
+  color: #006db1;;
+} */
 
 .showvideo {
   display: block;
@@ -4593,7 +4698,7 @@ a.c-pointer.quit:hover {
   font-weight: bolder;
   position: relative;
   padding-bottom: 26px;
-  font-family: "work sans bold";
+  font-family: "Helvetica bold";
 }
 
 .style-bar {
