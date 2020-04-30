@@ -2068,6 +2068,9 @@ input.widthy:focus {
 }
 
 @media (min-width: 1025px) {
+  .quit-bg {
+    display: none;
+  }
   .mode {
     padding-right: 8px !important;
   }
@@ -2110,6 +2113,23 @@ input.widthy:focus {
 }
 
 @media (max-width: 1024px) {
+  .quit-bg {
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 35px !important;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 14px;
+    border: none;
+    background-color: #006db1;
+  }
+
+  .d-none-quit {
+    display: none;
+  }
   .audio-bg {
     background-color: #222222;
     display: flex;
@@ -2209,7 +2229,7 @@ input.widthy:focus {
   }
 
   .sidenav {
-    height: 90vh !important;
+    height: calc(100% - 140px) !important;
     width: 1024px !important;
     top: 92px !important;
     background-color: #001c5c !important;
@@ -2260,7 +2280,6 @@ input.widthy:focus {
   .quit {
     width: 100% !important;
   }
-  
 }
 
 @media (max-width: 991px) {
@@ -2300,7 +2319,7 @@ input.widthy:focus {
   .back-up {
     transform: scale(2.5);
     width: 73%;
-}
+  }
   .overlay-home {
     position: fixed;
     width: 100%;
@@ -2433,7 +2452,7 @@ input.widthy:focus {
     padding-left: 0px !important;
   }
   .sidenav {
-    height: 88vh !important;
+    height: calc(100% - 159px) !important;
     width: 800px !important;
     top: 109px !important;
     background-color: #001c5c !important;
@@ -2508,7 +2527,7 @@ input.widthy:focus {
   }
 
   .sidenav {
-    height: 85.1vh !important;
+    height: calc(100% - 157px) !important;
   }
   .home-contain {
     padding-left: 17px;
@@ -2822,10 +2841,9 @@ input.widthy:focus {
     right: 102px !important;
     top: 190px !important;
   }
-
   .quit {
     width: 100% !important;
-    padding-left: 0px !important;
+    padding-left: 13px !important;
   }
   .sidenav {
     width: 600px !important;
@@ -2852,10 +2870,27 @@ input.widthy:focus {
 }
 
 @media (max-width: 414px) {
+  .quit-bg {
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 34px !important;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 14px;
+    border: none;
+    background-color: #006db1;
+  }
+  .quit {
+    width: 100% !important;
+    padding-left: 8px !important;
+  }
   .back-up {
     transform: scale(1.5);
     width: 73%;
-}
+  }
   .nav-search {
     padding-top: 0px !important;
     margin-right: -70px;
@@ -3057,7 +3092,7 @@ input.widthy:focus {
   }
 
   .sidenav {
-    height: 82vh !important;
+    height: calc(100% - 136px) !important;
     width: 414px !important;
     top: 88px !important;
   }
@@ -3102,11 +3137,11 @@ input.widthy:focus {
   }
   .sidenav .closebtn {
     right: 53px !important;
-    top: 179px !important;
+    top: 171px !important;
   }
 
   .sidenav {
-    height: 83vh !important;
+    height: calc(100% - 136px) !important;
     width: 411px !important;
   }
   .numbering {
@@ -3119,6 +3154,19 @@ input.widthy:focus {
 }
 
 @media (max-width: 375px) {
+  .quit-bg {
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 35px !important;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 14px;
+    border: none;
+    background-color: #006db1;
+  }
   .nav-padding-right {
     padding: 10px 0px 21px 0px !important;
   }
@@ -3277,12 +3325,12 @@ input.widthy:focus {
     top: 168px !important;
   }
   .quit {
-    width: 104% !important;
-    padding-left: 0px !important;
+    width: 100% !important;
+    padding-left: 12px !important;
   }
   .sidenav {
     width: 375px !important;
-    height: 83.5vh !important;
+    height: calc(100% - 134px) !important;
     top: 85px !important;
     background-color: #001c5c !important;
     opacity: 0.9 !important;
@@ -3631,7 +3679,7 @@ input.widthy:focus {
     width: 360px !important;
     top: 77px !important;
     background-color: #001c5c !important;
-    height: 80.5vh !important;
+    height: calc(100% - 126px) !important;
     opacity: 0.9 !important;
   }
 
@@ -3642,6 +3690,9 @@ input.widthy:focus {
 }
 
 @media (max-width: 320px) {
+  p.style-question {
+    margin-left: -43px !important;
+  }
   .option-text-course {
     padding-left: 7px;
     font-size: 11px;
@@ -3787,8 +3838,8 @@ input.widthy:focus {
   }
 
   .sidenav {
-    right: -47px !important;
-    height: 76.5vh !important;
+    right: -51px !important;
+    height: calc(100% - 136px) !important;
   }
 }
 
@@ -4715,6 +4766,7 @@ h6.text-center.incorrect-text {
 p.card-text.font-reduced {
   font-size: 16px;
   text-align: justify;
+  padding-bottom: 4em;
 }
 
 button.submit.move-it {
@@ -5002,6 +5054,7 @@ div.audio-bg button:focus {
 }
 
 .quit {
+  right: 0;
   z-index: 2000;
   position: fixed;
   bottom: 0;
