@@ -2082,6 +2082,10 @@ input.widthy:focus {
   }
 }
 
+.card-hover:hover{
+  background-color: #f1f0f0;
+}
+
 @media (min-width: 992px) {
   #testimonials .testimonial-item p {
     width: 90%;
@@ -4319,6 +4323,7 @@ img.side-menu {
   transition: 0.5s;
   padding-top: 133px;
   z-index: 1004;
+  border-bottom: 50px solid #006db1 !important;
 }
 
 .close-bar {
@@ -5053,7 +5058,6 @@ div.audio-bg button:focus {
 }
 
 .quit {
-  right: 0;
   z-index: 2000;
   position: fixed;
   bottom: 0;
