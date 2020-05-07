@@ -2835,7 +2835,7 @@ input.widthy:focus {
   }
   .branded {
     background-color: #fff !important;
-    width: 43rem !important;
+    width: 37rem !important;
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
     margin-bottom: 40px important;
@@ -2895,8 +2895,15 @@ input.widthy:focus {
   }
 }
 
+@media (max-width: 599px) {
+  #header .logo img {
+    max-height: 27px;
+  }
+}
+
 @media (max-width: 414px) {
   .quit-bg {
+    display: block;
     left: 0;
     right: 0;
     z-index: 1000;
@@ -2910,6 +2917,7 @@ input.widthy:focus {
     background-color: #006db1;
   }
   .quit {
+    display: block;
     width: 100% !important;
     padding-left: 8px !important;
   }
@@ -3124,6 +3132,7 @@ input.widthy:focus {
   }
 
   .quit {
+    display: block;
     width: 100% !important;
   }
   .numbering {
@@ -3181,6 +3190,7 @@ input.widthy:focus {
 
 @media (max-width: 375px) {
   .quit-bg {
+    display: block;
     left: 0;
     right: 0;
     z-index: 1000;
@@ -3351,6 +3361,7 @@ input.widthy:focus {
     top: 168px !important;
   }
   .quit {
+    display: block;
     width: 100% !important;
     padding-left: 12px !important;
   }
@@ -3908,11 +3919,11 @@ img.circle {
   width: 100%;
 }
 
-@media screen and (min-width: 1500px) {
+/* @media screen and (min-width: 1500px) {
   .shadowy {
     width: 260px;
   }
-}
+} */
 
 .grey-bg {
   background: #fafafa;
